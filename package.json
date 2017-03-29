@@ -1,0 +1,26 @@
+{
+  "name": "dontbb2us",
+  "version": "0.0.0",
+  "description": "shawn's space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DONTBB2US/dontbb2us.git"
+  },
+  "author": "shawnuf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DONTBB2US/dontbb2us/issues"
+  },
+  "homepage": "https://github.com/DONTBB2US/dontbb2us#readme",
+  "devDependencies": {
+    "webpack": "^2.3.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "vue": "^2.2.6"
+  }
+}
