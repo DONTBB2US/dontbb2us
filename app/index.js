@@ -1,12 +1,12 @@
-import _ from 'lodash';
+import Vue from 'vue';
 
-function component () {
-  var element = document.createElement('div');
+let root_tmpl = `
+<div>
+  Hello World! This Burger Come From Shawn!
+</div>
+`
+let Root = Vue.extend({
+  template: root_tmpl
+})
 
-  /* lodash is required for the next line to work */
-  element.innerHTML = _.join(['Hello','webpack'], ' ');
-
-  return element;
-}
-
-document.body.appendChild(component());
+new Root().$mount('#app');
